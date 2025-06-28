@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restoran Ceria</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #34495e;
+      padding: 1em 2em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      gap: 1em;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.5em 1em;
+      border-radius: 5px;
+    }
+
+    nav a:hover {
+      background-color: #2c3e50;
+    }
+
+    .container {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 3em;
+      background: white;
+      padding: 2em;
+      border-radius: 10px;
+    }
+
+    button {
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #1e8449;
+    }
+
+    section h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #27ae60;
+      padding-bottom: 0.5em;
+      margin-bottom: 1em;
+    }
+
+    section p {
+      line-height: 1.7;
+      font-size: 1.05em;
+    }
+
+    .video-container {
+      text-align: center;
+      margin-top: 1em;
+    }
+
+    .video-container video {
+      width: 50%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+  <header>
+    <h1>Restoran Ceria</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="promo.html">Promo</a>
+      <a href="menu.html">Menu</a>
+      <a href="reservasi.html">Reservasi</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="ulasan.html">Ulasan</a>
+      <a href="kontak.html">Kontak</a>
+      <a href="tentang.html">Tentang</a>
+    </nav>
+  </header>
+
+  <div class="container"> <!-- Kontainer isi halaman -->
+    <section id="beranda"> <!-- Bagian beranda -->
+      <h2>Selamat Datang di Restoran Ceria</h2>
+      <p>Halo, saya <strong>Faisal Aditya Pratama</strong>, mahasiswa Universitas Pamulang dengan NIM
+        <strong>221011450011</strong>, sedang mengembangkan website ini sebagai bagian dari mata kuliah
+        <strong>Pemrograman Web 1</strong>. Website ini merupakan representasi dari sebuah restoran fiktif bernama
+        "Restoran Ceria" yang bertujuan memberikan pengalaman pengguna yang informatif dan menyenangkan.
+      </p>
+      <div class="video-container">
+        <video controls>
+          <source src="vid/restoran.mp4" type="video/mp4">
+          Browser Anda tidak mendukung pemutaran video.
+        </video>
+      </div>
+    </section>
+</body>
+
+</html>

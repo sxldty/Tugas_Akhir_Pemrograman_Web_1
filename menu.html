@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Restoran Ceria</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #34495e;
+      padding: 1em 2em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      gap: 1em;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.5em 1em;
+      border-radius: 5px;
+    }
+
+    nav a:hover {
+      background-color: #2c3e50;
+    }
+
+    .container {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .menu-item {
+      background: white;
+      padding: 1.5em;
+      border-radius: 10px;
+      margin-bottom: 2em;
+    }
+
+    .menu-item img {
+      max-width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-top: 1em;
+    }
+
+    .menu-item ul {
+      margin-top: 1em;
+      padding-left: 20px;
+    }
+
+    .menu-item h4 {
+      margin-top: 1em;
+      color: #27ae60;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Restoran Ceria</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="promo.html">Promo</a>
+      <a href="menu.html">Menu</a>
+      <a href="reservasi.html">Reservasi</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="ulasan.html">Ulasan</a>
+      <a href="kontak.html">Kontak</a>
+      <a href="tentang.html">Tentang</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Menu Kami</h2>
+
+    <div class="menu-item">
+      <h3>Nasi Goreng Spesial</h3>
+      <p>Nasi goreng dengan campuran ayam, udang, dan telur. Disajikan dengan kerupuk dan acar segar.</p>
+      <h4>Bahan:</h4>
+      <ul>
+        <li>Nasi putih</li>
+        <li>Daging ayam dan udang</li>
+        <li>Telur</li>
+        <li>Bawang putih, bawang merah</li>
+        <li>Kecap manis, saus tiram</li>
+        <li>Minyak wijen</li>
+      </ul>
+      <h4>Cara Memasak:</h4>
+      <p>Tumis bawang, masukkan ayam dan udang, lalu telur. Masukkan nasi dan bumbu, aduk rata hingga harum.</p>
+      <img src="../img/nasigoreng.jpg" alt="Nasi Goreng Spesial">
+    </div>
+
+    <div class="menu-item">
+      <h3>Sate Ayam</h3>
+      <p>Sate ayam empuk dibakar dan dilumuri bumbu kacang khas, disajikan dengan lontong dan bawang goreng.</p>
+      <h4>Bahan:</h4>
+      <ul>
+        <li>Daging ayam fillet</li>
+        <li>Bumbu kacang: kacang tanah, bawang putih, cabai, gula merah</li>
+        <li>Kecap manis</li>
+      </ul>
+      <h4>Cara Memasak:</h4>
+      <p>Rendam ayam dalam bumbu, tusuk ke tusukan sate, bakar hingga matang. Sajikan dengan saus kacang dan lontong.</p>
+      <img src="../img/sateayam.jpg" alt="Sate Ayam">
+    </div>
+
+    <div class="menu-item">
+      <h3>Rendang</h3>
+      <p>Rendang sapi khas Padang, dimasak dalam santan dan rempah selama berjam-jam hingga empuk dan meresap.</p>
+      <h4>Bahan:</h4>
+      <ul>
+        <li>Daging sapi</li>
+        <li>Santan</li>
+        <li>Rempah: lengkuas, serai, daun jeruk, cabai merah</li>
+      </ul>
+      <h4>Cara Memasak:</h4>
+      <p>Masak semua bahan bersama santan, aduk perlahan hingga air menyusut dan rendang berubah warna coklat tua.</p>
+      <img src="../img/rendang.jpg" alt="Rendang">
+    </div>
+
+    <div class="menu-item">
+      <h3>Gulai Kambing</h3>
+      <p>Gulai kambing gurih dengan kuah santan kental dan rempah khas, cocok dinikmati dengan nasi hangat.</p>
+      <h4>Bahan:</h4>
+      <ul>
+        <li>Daging kambing</li>
+        <li>Santan</li>
+        <li>Bumbu halus: bawang, jahe, kunyit, kemiri</li>
+        <li>Rempah: kayu manis, cengkeh</li>
+      </ul>
+      <h4>Cara Memasak:</h4>
+      <p>Rebus kambing dengan rempah, masukkan santan dan bumbu halus, masak hingga kuah mengental dan daging empuk.</p>
+      <img src="../img/gulaikambing.jpg" alt="Gulai Kambing">
+    </div>
+
+    <div class="menu-item">
+      <h3>Rawon</h3>
+      <p>Sup hitam khas Jawa Timur berbahan kluwek, daging sapi, dan disajikan dengan tauge pendek serta sambal.</p>
+      <h4>Bahan:</h4>
+      <ul>
+        <li>Daging sapi (sandung lamur)</li>
+        <li>Kluwek, bawang putih, ketumbar, serai</li>
+        <li>Tauge pendek, sambal, telur asin</li>
+      </ul>
+      <h4>Cara Memasak:</h4>
+      <p>Tumis bumbu, masukkan daging dan air, rebus hingga empuk. Tambahkan kluwek yang sudah dihaluskan, sajikan hangat.</p>
+      <img src="../img/rawon.jpg" alt="Rawon">
+    </div>
+
+    <div class="menu-item">
+      <h3>Soto Betawi</h3>
+      <p>Kuah santan dengan daging sapi, tomat, kentang, dan emping. Cita rasa gurih khas Betawi.</p>
+      <h4>Bahan:</h4>
+      <ul>
+        <li>Daging sapi dan paru</li>
+        <li>Santan & susu</li>
+        <li>Bumbu: bawang putih, bawang merah, kemiri, jahe</li>
+      </ul>
+      <h4>Cara Memasak:</h4>
+      <p>Rebus daging, tumis bumbu, lalu campurkan semua dengan santan. Sajikan dengan emping dan sambal.</p>
+      <img src="../img/sotobetawi.jpg" alt="Soto Betawi">
+    </div>
+
+    <div class="menu-item">
+      <h3>Ayam Penyet</h3>
+      <p>Ayam goreng digeprek dan disajikan dengan sambal pedas, lalapan, dan nasi hangat.</p>
+      <h4>Bahan:</h4>
+      <ul>
+        <li>Ayam kampung</li>
+        <li>Bumbu ungkep: bawang, ketumbar, kunyit</li>
+        <li>Sambal terasi, tomat, cabai rawit</li>
+      </ul>
+      <h4>Cara Memasak:</h4>
+      <p>Ungkep ayam hingga empuk, goreng, lalu penyet di atas sambal. Sajikan dengan lalapan segar dan nasi.</p>
+      <img src="../img/ayampenyet.jpg" alt="Ayam Penyet">
+    </div>
+  </div>
+</body>
+</html>
